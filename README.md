@@ -1,3 +1,6 @@
 # corrigindo-erros-entre-variaveis-1
 
-Arquivo definitivo
+Arquivo após a correção
+Erro foi corrigido substituindo a identificação de números inteiros que representava a variavel bool 
+
+A identificação antes usada = d, foi substituida por = i
