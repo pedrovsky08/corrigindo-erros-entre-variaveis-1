@@ -1,3 +1,3 @@
 # corrigindo-erros-entre-variaveis-1
 
-Arquivo definitivo
+Codigo antes da correção
