@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+
+int main(){
+
+	
+	//definindo variaveis
+	int a;
+	float b;
+	char c;
+	int d;
+	
+	//passando valores
+	a=5;
+  b=2.3;
+  c='a';
+  d=true; //true = 1, false = 0
+	
+	//escrevendo na tela
+	printf("o valor de a = %d\n",a);	
+	printf("o valor de b = %.1f\n",b);
+	printf("o valor de c = %c\n",c);
+	printf("o valor de d = %d", d);
+	
+	printf("\n");
+	printf("\n");
+	
+	printf("escaneando valores\n");	
+	//lendo valores
+	scanf("%d",&a);
+	scanf("%f",&b);
+	//para ler caractere, vc precisa por espaço apos as aspas duplas
+	scanf(" %c",&c);
+	scanf("%d", &d);
+	
+	printf("\n");
+	
+	printf("o valor de a agora eh = %d\n",a);
+	printf("o valor de b agora eh = %.1f\n",b);
+	printf("o valor de c agora eh = %c\n",c);
+	printf("o valor de d agora eh = %d",d);
+}
